@@ -3,7 +3,14 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    int base, altura;
+
+    cout<<"Dame la base: ";
+    cin>>base;
+    cout<<"Dame la altura: ";
+    cin>>altura;
+
+    cout<<endl<<"Area del Triangulo: "<<(base*altura)/2<<endl;
 
     return 0;
 }
